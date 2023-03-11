@@ -16,7 +16,7 @@ export default function TodoList() {
     const todoList = useSelector(todoRemainingSelector);
     // useEffect(()=> {
     console.log(todoList);
-    
+
     // })
     const handleChangeInput = (e) => {
         console.log(e.target.value);
